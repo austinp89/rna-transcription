@@ -15,7 +15,8 @@ export const toRna = (rna) => {
     return mapObj[matched]})
     
     if (rna.indexOf('X') !== -1)
-   
+    throw new Error('Invalid input DNA.')
+    
     else
     return rna
 
