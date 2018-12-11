@@ -15,7 +15,7 @@ export const toRna = (rna) => {
     return mapObj[matched]})
     
     if (rna.indexOf('X') !== -1)
-//    
+   
     else
     return rna
 
